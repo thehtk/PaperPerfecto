@@ -5,6 +5,7 @@ from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
 from docx.shared import Inches
 import helper
 import re
+import warnings
 
 st.set_page_config(
     page_title="Document Creator",
